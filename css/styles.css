@@ -1,0 +1,218 @@
+body {
+  font-family: "Roboto", "Roboto Condensed", "Barlow Condensed", sans-serif;
+  color: #2e2f42;
+}
+
+:root {
+  --color-text-h: #2e2f42;
+  --color-text-hero: #ffffff;
+  --color-text: #434455;
+  --color-text-button: #4d5ae5;
+  --color-focus-btn: #404bbf;
+  --color-btn: #f4f4fd;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+/***--------------------------HEADER---------------------**/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-h);
+}
+
+.logo-web {
+  color: var(--color-text-button);
+}
+
+.header-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-h);
+}
+
+.contacts {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-focus-btn);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-focus-btn);
+}
+
+/***----------------------FOOTER------------------------**/
+.basement-background {
+  background: var(--color-text-h);
+}
+
+.logo-basement {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-btn);
+}
+
+.basement-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-btn);
+}
+
+/***----------------------HERO------------------------**/
+
+.hero-background {
+  background-color: var(--color-text-h);
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-text-hero);
+  background-color: var(--color-text-button);
+  border: 0;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--color-focus-btn);
+}
+
+/***---------------goal of the company---------------------**/
+
+.company-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.company-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+/***--------------------------TITLE---------------------**/
+
+.hero {
+  font-style: normal;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-text-hero);
+}
+
+.title-doing,
+.title-team {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/***--------------------------PORTFOLIO---------------------**/
+
+.text-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-text-button);
+  background-color: var(--color-btn);
+  border: 0;
+  cursor: pointer;
+}
+
+.text-btn:hover,
+.text-btn:focus {
+  background-color: var(--color-focus-btn);
+  color: var(--color-text-hero);
+}
+
+.portfolio-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+/**--------------------------Our Team---------------------**/
+
+.team-background {
+  background-color: var(--color-btn);
+}
+
+.team-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
