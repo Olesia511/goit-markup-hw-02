@@ -104,6 +104,7 @@ body {
   color: var(--color-text-hero);
   background-color: var(--color-text-button);
   border: 0;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -161,6 +162,7 @@ body {
   color: var(--color-text-button);
   background-color: var(--color-btn);
   border: 0;
+  cursor: pointer;
 }
 
 .text-btn:hover,
