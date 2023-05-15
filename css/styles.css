@@ -21,9 +21,6 @@ body {
   list-style: none;
 }
 
-.btn {
-  cursor: pointer;
-}
 /***--------------------------HEADER---------------------**/
 
 .logo {
@@ -107,7 +104,6 @@ body {
   color: var(--color-text-hero);
   background-color: var(--color-text-button);
   border: 0;
-  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -118,7 +114,6 @@ body {
 /***---------------goal of the company---------------------**/
 
 .company-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -135,7 +130,6 @@ body {
 /***--------------------------TITLE---------------------**/
 
 .hero {
-  font-style: normal;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -145,7 +139,6 @@ body {
 
 .title-doing,
 .title-team {
-  font-style: normal;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -168,7 +161,6 @@ body {
   color: var(--color-text-button);
   background-color: var(--color-btn);
   border: 0;
-  cursor: pointer;
 }
 
 .text-btn:hover,
@@ -178,7 +170,6 @@ body {
 }
 
 .portfolio-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -204,7 +195,6 @@ body {
 }
 
 .team-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
